@@ -1,0 +1,154 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: var(--branco);
+    height: 25rem;
+    margin-bottom: 3rem;
+}
+
+.imagemSlide{
+    width: 99rem;
+    height: 22rem;
+    margin-left: 0.4rem;
+    align-items: center;
+}
+
+.bannerResumido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: var(--branco);
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+.bannerResumido > h1{
+    margin-left: 3rem;
+    font-size: 1.8rem;
+}
+
+main{
+    margin-bottom: 3rem;
+}
+
+main > .div-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem 0 1rem;
+    gap: 2rem;
+}
+
+.card{
+    width: 21.25rem;
+	height: 39rem;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--roxo);
+    color: var(--branco);
+    border-radius: 2rem 2rem 0 0;
+}
+
+.cabecalho > img{
+    width: 100%;
+    height: 23rem;
+    object-fit: cover;
+}
+
+.cabecalho > h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    height: 4rem;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.conteudo{
+    background-color: var(--claro-roxo);
+    color: var(--roxo);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 0 0 1.5rem 1.5rem;
+    width: 100%; 
+}
+
+.conteudo > p{
+    text-align: justify;
+    overflow-y: scroll; 
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    max-height: 5rem;
+    min-height: 5rem; 
+    padding: 10px; 
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.estrelas > button{
+    background-color: transparent;
+    border: none;
+}
+
+.marcada{
+    color: var(--roxo-rose);
+}
+
+.sem_marca{
+    color: var(--transparente-roxo);
+}
+
+/* Respomsividade */
+@media screen and (min-width: 1585px){
+    .banner{
+        height: 25rem;
+        margin-bottom: 1rem;
+    }
+
+    .imagemSlide{
+        width: 99%;
+        height: 20rem;
+        margin-left: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 1585px){
+    .banner{
+        height: 20rem;
+        margin-bottom: 1rem;
+    }
+
+    .imagemSlide{
+        width: 99%;
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 210px){
+    .banner{
+        height: 18rem;
+        margin-bottom: 0.3rem;
+    }
+}

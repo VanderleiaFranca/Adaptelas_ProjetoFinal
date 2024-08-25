@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "global.css" />
+    <link rel = "stylesheet" href = "index.css" />
+    <link rel = "stylesheet" href = "filmeFavorito.css" />
+    <script src="./script.js"> </script>
+    <title> Filme Favorito </title>
+</head>
+
+<body>
+    <header>
+        <h1> MEU FILME FAVORITO </h1>
+        <ul>
+            <li> <a href = "./index.html" class = "link-pagina"> Página Principal </a> </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class = "div-informacoes">
+            <h2 id = "nome"> ORGULHO E PRECONCEITO </h2>
+            <div>
+                <h3> ÚLTIMA VEZ QUE ASSISTIU: </h3>
+                <p id = "data"> 08/07/2024 </p>
+            </div>
+            <div>
+                <h3> DESCRIÇÃO </h3>
+                <p id = "descrição">
+                    <I> O maior sonho da Sra. Bennet (Brenda Blethyn), mãe de cinco filhas, é ver suas meninas casadas 
+                    e com uma vida confortável. Quando o Sr. Bingley (Simon Woods) se muda para perto de sua casa, 
+                    ela vê a oportunidade de um marido para sua mais velha e mais bela filha, Jane (Rosamund Pike).
+                    Durante um baile, a intrépida senhora faz questão de se apresentar e apresentar sua família, e 
+                    assim fica conhecendo Bingley, sua irmã Caroline (Kelly Reilly) e seu melhor amigo, Sr. Darcy 
+                    (Matthew Macfadyen). De cara, a segunda menina Bennet, Elizabeth (Keira Knightley), tem uma má 
+                    impressão de Darcy devido à algumas coisas que escuta e que lhe dizem respeito. Após o baile o 
+                    destino proporciona vários encontros entre os dois, que se estranham cada vez mais.
+                    Baseado no romance homônimo de Jane Austen. </I>
+                </p>
+            </div>
+        </div>
+        <div class = "div-personagens">
+            <h2> PERSONAGENS </h2>
+            <div class = "cards">
+                <div class= "card">
+                    <h4 id = "personagem-um"> Elizabeth Bennet </h4>
+                    <p> (Keira Knightley) </p>
+                    <img src = "./imagens/elizabet.jpg" alt = "Imagem da personagem Elizabeth Bennet" id = "imagem-p1">
+                </div>
+                <div class = "card">
+                    <h4 id = "personagem-dois"> Fitzwilliam Darcy </h4>
+                    <p> (Matthew Macfadyen) </p>
+                    <img src = "./imagens/darcy.jpg" alt = "Imagem do personagem Fitzwilliam Darcy" id = "imagem-p2">
+                </div>
+                <div class= "card">
+                    <h4 id = "personagem-tres"> Jane Bennet </h4>
+                    <p> (Rosamund Pike) </p>
+                    <img src = "./imagens/Jane_Bennet.png" alt = "Imagem da personagem Jane Bennet" id = "imagem-p3">
+                </div>
+                <div class= "card">
+                    <h4 id = "personagem-quatro"> Charles Bingley </h4>
+                    <p> (Crispin Bonham-Carter) </p>
+                    <img src = "./imagens/charles.jpg" alt = "Imagem do personagem Charles Bingley" id = "imagem-p4">
+                </div>
+                <div class = "card">
+                    <h4 id = "personagem-cinco"> Sra. Bennet </h4>
+                    <p> (Brenda Blethyn) </p>
+                    <img src = "./imagens/senhoraBennet.png" alt = "Imagem da personagem Sra. Bennet" id = "imagem-p5">
+                </div>
+                <div class = "card">
+                    <h4 id = "personagem-seis"> Sr. Bennet </h4>
+                    <p> (Donald Sutherland) </p>
+                    <img src = "./imagens/mrbennet.png" alt = "Imagem do personagem Sr. Bennet" id = "imagem-p6">
+                </div>
+                <div class= "card">
+                    <h4 id = "personagem-sete"> Lydia Bennet </h4>
+                    <p> (Jena Malone) </p>
+                    <img src = "./imagens/lydia-bennet.jpg" alt = "Imagem da personagem Lydia Bennet" id = "imagem-p7">
+                </div>
+                <div class = "card">
+                    <h4 id = "personagem-oito"> Lady Catherine de Bourgh </h4>
+                    <p> (Judi Dench) </p>
+                    <img src = "./imagens/Catherine_de_Bourgh.png" alt = "Imagem da personagem Lady Catherine de Bourgh" id = "imagem-p8">
+                </div>
+                <div class= "card">
+                    <h4 id = "personagem-nove"> George Wickham </h4>
+                    <p> (Rupert Friend) </p>
+                    <img src = "./imagens/George_Wickham.png" alt = "Imagem do personagem George Wickham" id = "imagem-p9">
+                </div>
+                <div class = "card">
+                    <h4 id = "personagem-deiz"> Caroline Bingley </h4>
+                    <p> (Kelly Reilly) </p>
+                    <img src = "./imagens/Caroline-bingley.png" alt = "Imagem da personagem Caroline Bingley" id = "imagem-p10">
+                </div>
+                <div class = "card">
+                    <h4 id = "personagem-onze"> Mr. Collins </h4>
+                    <p> (Tom Hollander) </p>
+                    <img src = "./imagens/collins.jpg" alt = "Imagem do personagem Mr. Collins" id = "imagem-p11">
+                </div>
+                <div class = "card">
+                    <h4 id = "personagem-doze"> Charlotte Lucas </h4>
+                    <p> (Claudie Blakley) </p>
+                    <img src = "./imagens/charlote.jpg" alt = "Imagem da personagem Charlotte Lucas" id = "imagem-p12">
+                </div>
+            </div>
+        </div>
+        <button id = "abrir-modal"> Editar Filme </button>
+    </main>
+    
+    <div id = "modal" class = "escondido div-modal">
+        <div>
+            <h2> Adicionar Filme </h2>
+            <form action = "" id="novo-filme">
+                <label for = "nome"> Nome </label>
+                <input type = "text" id = "novo-nome" placeholder = "Nome do Filme">
+                <label for = "data"> Data </label>
+                <input type = "date" id = "nova-data" placeholder = "Data em que assistiu">
+                <label for = "descricao"> Descrição </label>
+                <input type = "text" id = "nova-descricao" placeholder = "Descrição do Filme">
+
+                <label for = "nome-p1"> Nome Personagem 1 </label>
+                <input type = "text" id = "novo-p1" placeholder = "Nome do Personagem 1">
+                <label for = "imagem-p1"> Imagem do Personagem 1 </label>
+                <input id = "nova-imagem-p1" class = "input-arquivo" type="file" value="">
+
+                <label for = "nome-p2"> Nome Personagem 2 </label>
+                <input type = "text" id = "novo-p2" placeholder = "Nome do Personagem 2">
+                <label for = "imagem-p2"> Imagem do Personagem 2 </label>
+                <input id = "nova-imagem-p2" class = "input-arquivo" type = "file" value="">
+                
+                <button id="salvar"> Salvar </button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <p>
+            <i class = "fa fa-solid fa-heart"></i>  Desenvolvido por <b> Vanderléia </b> <i class = "fa fa-solid fa-heart"></i> 
+        </p>
+    </footer>
+</body>
+</html>
+
